@@ -14,5 +14,4 @@ The content here is modified. "git diff TestOne-Clone.txt".You can view the modi
 最后再执行  git push -u origin master
 
 强制提交：
-
 git push origin HEAD:master
