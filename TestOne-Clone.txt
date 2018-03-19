@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 git clone https://github.com/321816401/MyGit.git
+=======
+git clone https://github.com/321816401/MyGit.git
+
+Git is a distributed version control system.
+Git is free software.
+>>>>>>> 第一次add And commit And push

@@ -1,0 +1,13 @@
+﻿git clone https://github.com/321816401/MyGit.git
+
+当修改文件内容后，git diff 文件名  可以查看文件被修改后的内容
+
+当修改源文件后，无法提交 报错： failed to push some refs to
+
+而且无法直接pull
+
+解决办法：
+先执行 git stash 
+再执行 git pull --rebase origin master 
+
+最后再执行  git push -u origin master
