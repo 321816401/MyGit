@@ -1,13 +1,18 @@
-ï»¿git clone https://github.com/321816401/MyGit.git
 
-å½“ä¿®æ”¹æ–‡ä»¶å†…å®¹åï¼Œgit diff æ–‡ä»¶å  å¯ä»¥æŸ¥çœ‹æ–‡ä»¶è¢«ä¿®æ”¹åçš„å†…å®¹
+The content here is modified. "git diff TestOne-Clone.txt".You can view the modified content.
 
-å½“ä¿®æ”¹æºæ–‡ä»¶åï¼Œæ— æ³•æäº¤ æŠ¥é”™ï¼š failed to push some refs to
+µ±ĞŞ¸ÄÎÄ¼şÄÚÈİºó£¬git diff ÎÄ¼şÃû  ¿ÉÒÔ²é¿´ÎÄ¼ş±»ĞŞ¸ÄºóµÄÄÚÈİ
 
-è€Œä¸”æ— æ³•ç›´æ¥pull
+µ±ĞŞ¸ÄÔ´ÎÄ¼şºó£¬ÎŞ·¨Ìá½» ±¨´í£º failed to push some refs to
 
-è§£å†³åŠæ³•ï¼š
-å…ˆæ‰§è¡Œ git stash 
-å†æ‰§è¡Œ git pull --rebase origin master 
+¶øÇÒÎŞ·¨Ö±½Ópull
 
-æœ€åå†æ‰§è¡Œ  git push -u origin master
+½â¾ö°ì·¨£º
+ÏÈÖ´ĞĞ git stash 
+ÔÙÖ´ĞĞ git pull --rebase origin master 
+
+×îºóÔÙÖ´ĞĞ  git push -u origin master
+
+Ç¿ÖÆÌá½»£º
+
+git push origin HEAD:master
