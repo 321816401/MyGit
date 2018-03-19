@@ -1,0 +1,10 @@
+﻿切换分支：
+错误：error: Your local changes to the following files would be overwritten by checkout:error: Your local changes to the following files would be overwritten by checkout:
+
+需要先保存
+解決方法：
+及时commit代码
+
+使用git stash
+OR
+git stash save “修改的信息"
