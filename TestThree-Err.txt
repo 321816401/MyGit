@@ -8,3 +8,6 @@
 使用git stash
 OR
 git stash save “修改的信息"
+
+冲突解决:
+当master分支跟其余分支相同时，请在master再保存一次（commit），然后再删除其余分支
