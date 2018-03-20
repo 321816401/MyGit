@@ -23,4 +23,20 @@ git push origin HEAD:master
 
 ------2-----
 但是当我再修改的时候，就是你看的这个。
-然后我commit
+然后我commit，
+
+--3---
+再提交，目前这行 3 不会被提交上去，因为2已经被commit 到暂存区
+而，push提交，它只提交暂存区的。
+
+具体过程:
+git add 1
+git commit -m "提交1"
+git push
+
+git add 2
+git commit -m "提交2"
+此刻，修改文件里面的内容
+然后提交
+
+git push
