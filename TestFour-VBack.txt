@@ -1,0 +1,10 @@
+ git reset --hard HEAD^
+如果出现
+More
+使用：~ 
+
+git reflog
+用来记录你的每一次命令
+
+git diff    #是工作区(work dict)和暂存区(stage)的比较
+git diff --cached    #是暂存区(stage)和分支(master)的比较
