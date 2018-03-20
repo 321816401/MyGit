@@ -9,4 +9,9 @@
 OR
 git stash save “修改的信息"
 
+<<<<<<< HEAD
 添加分支
+=======
+冲突解决:
+当master分支跟其余分支相同时，请在master再保存一次（commit），然后再删除其余分支
+>>>>>>> feature1
