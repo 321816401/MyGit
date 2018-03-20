@@ -15,3 +15,8 @@ The content here is modified. "git diff TestOne-Clone.txt".You can view the modi
 
 强制提交：
 git push origin HEAD:master
+
+------1-----
+另一种情况：
+当你修改源文件后，而且已经提交（比如现在这个文件），我现在增加你正在读的内容，如果我现在保存（给个别名叫做“1”），然后 git add，再提交
+那么1 会提交。
