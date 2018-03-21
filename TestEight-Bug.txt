@@ -1,0 +1,25 @@
+stash功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+
+恢复现场：
+
+git stash apply恢复，但是恢复后，stash内容并不删除，你需要用git stash drop来删除；
+
+另一种方式是用git stash pop，恢复的同时把stash内容也删了：
+
+用法：
+在dev分支 stash
+然后checkout master 分支 创建 issue-101分支
+在iss..-101分支commit BUG文件
+回去master
+ git merge --no-ff -m "merged bug fix 101" issue-101
+
+然后删除临时分支iss..-101
+
+git branch -d issue-101
+
+
+回去dev看看工作现场存哪里去了
+git stash list
+然后
+git stash pop
+
