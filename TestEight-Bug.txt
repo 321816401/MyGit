@@ -6,9 +6,12 @@ git stash apply恢复，但是恢复后，stash内容并不删除，你需要用git stash drop来删除
 
 另一种方式是用git stash pop，恢复的同时把stash内容也删了：
 
-用法：
+bug分支用法：
 在dev分支 stash
+
 然后checkout master 分支 创建 issue-101分支
+修改内容.
+
 在iss..-101分支commit BUG文件
 回去master
  git merge --no-ff -m "merged bug fix 101" issue-101
