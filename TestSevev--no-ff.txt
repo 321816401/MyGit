@@ -2,3 +2,16 @@
 如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
 
 不用--no-ff，实际上只是将master的指针update成dev分支而已，用的还是dev的commit ID，而使用之后，则是重新commit了一哈，有了新的commit ID
+
+用法：
+新建分支
+commit分支
+
+切换至master分支
+
+git merge --no-ff -m "merge with no-ff" dev
+//这个 -m是添加注释 --no--ff 表示禁用Fast Forward 模式
+
+
+git log --graph --pretty=oneline --abbrev-commit
+//查看分支历史
